@@ -1,6 +1,6 @@
 {
     "name": "socialiteproviders/trello",
-    "description": "Trello OAuth2 Provider for Laravel Socialite",
+    "description": "Trello OAuth1 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
         "name": "DraperStudio",

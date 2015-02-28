@@ -1,5 +1,11 @@
 # Trello OAuth1 Provider for Laravel Socialite
 
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/SocialiteProviders/Trello.svg?style=flat-square)](https://scrutinizer-ci.com/g/SocialiteProviders/Trello/?branch=master)
+[![Latest Stable Version](https://img.shields.io/packagist/v/socialiteproviders/trello.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/trello)
+[![Total Downloads](https://img.shields.io/packagist/dt/socialiteproviders/trello.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/trello)
+[![Latest Unstable Version](https://img.shields.io/packagist/vpre/socialiteproviders/trello.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/trello)
+[![License](https://img.shields.io/packagist/l/socialiteproviders/trello.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/trello)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Contents

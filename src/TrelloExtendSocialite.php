@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Trello;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;

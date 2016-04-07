@@ -22,12 +22,16 @@ class Provider extends AbstractProvider
         }
 
         $token = $this->getToken();
-        $this->server->setAccessToken($token->getIdentifier());
-        $user = $this->server->getUserDetails($token);
+
+        $tokenCredentials = $token['tokenCredentials'];
+
+        $this->server->setAccessToken($tokenCredentials->getIdentifier());
+
+        $user = $this->server->getUserDetails($tokenCredentials);
 
         return (new User())->setRaw($user->extra)->map([
             'id' => null, 'nickname' => $user->nickname, 'name' => null,
             'email' => null, 'avatar' => null,
-        ])->setToken($token->getIdentifier(), $token->getSecret());
+        ])->setToken($tokenCredentials->getIdentifier(), $tokenCredentials->getSecret());
     }
 }
